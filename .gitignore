@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+**/node_modules/
+backend/venv/
+.venv/
+venv/
+
+# Environment files & secrets
+.env
+.env.*
+*.env
+*.env.*
+backend/.env
+frontend/.env
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Private keys & credentials
+*.pem
+*.key
+*.pfx
+*.cert
+*token*.json
+*credentials*.json
+
+# IDE and editors
+.idea/
+.vscode/
+
+# Testing & Artifacts
+/coverage
+test_reports/
+.emergent/
+backend.log
+*.log
+
+# Production builds
+/build
+frontend/build/
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
